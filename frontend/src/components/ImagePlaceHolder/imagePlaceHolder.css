@@ -1,0 +1,63 @@
+.smallimagePlaceHolder {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 12px 12px -4px lightblue;
+  height: 280px;
+  object-fit: cover;
+}
+.gridimagePlaceHolder {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 12px 12px -4px lightblue;
+  height: 280px;
+  object-fit: cover;
+}
+
+.staticimagePlaceHolder {
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 12px 12px -4px lightblue;
+  height: 580px;
+  object-fit: cover;
+}
+
+.ImageContainer {
+  padding: 0 50px 50px 50px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.smallImageContainer {
+  padding: 0 50px 50px 50px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.gridImageContainer {
+  padding: 0 50px 50px 50px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.ImageContainer:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+.smallImageContainer:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
+.staticImageContainer {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-right: auto; 
+}

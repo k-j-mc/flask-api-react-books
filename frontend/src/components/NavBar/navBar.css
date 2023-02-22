@@ -1,0 +1,36 @@
+.header-logo {
+    max-width: 20%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    image-rendering: high-quality;
+}
+
+@media (max-width: 1200px) {
+    .header-logo {
+        max-width: 80%;
+        padding: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        image-rendering: high-quality;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-logo {
+        min-width: 40%;
+        max-width: 90%;
+        padding: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        image-rendering: high-quality;
+    }
+}
+
+.appBarShadow {
+    height: 35px;
+    background: linear-gradient(180deg, rgba(97,219,252,0.3) 0%, rgba(212,245,254,0.4) 50%, rgba(255,255,255,0) 100%);
+}
