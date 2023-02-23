@@ -1,5 +1,8 @@
 # flask-api-react-books
 
+## Brief demonstrational video:
+### https://youtu.be/-uZzifnVJPI
+
 ## Backend
 
 ### `cd backend && pipenv install`
